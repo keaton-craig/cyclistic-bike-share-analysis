@@ -15,6 +15,16 @@ Insights from this analysis will support marketing strategy decisions aimed at i
 
 ---
 
+### Data Source
+
+The dataset used for this analysis is the Cyclistic (Divvy) historical bike trip dataset made publicly available by Motivate International Inc.
+
+This project analyzes the most recent 12 complete months of trip data to capture full seasonal usage patterns.
+
+Due to file size limitations, raw CSV files are stored locally and imported into Google BigQuery for analysis. Raw data is not stored in this repository.
+
+---
+
 ### Tools Used
 - SQL (Google BigQuery)
 - Tableau
