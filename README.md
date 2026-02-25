@@ -25,6 +25,16 @@ Due to file size limitations, raw CSV files are stored locally and imported into
 
 ---
 
+### Data Credibility (ROCCC)
+
+- **Reliable:** Data provided by Motivate International Inc., the operator of the Cyclistic/Divvy bike-share program.
+- **Original:** Primary trip-level data collected directly from bike-share operations.
+- **Comprehensive:** Includes ride timestamps, station information, bike type, and rider membership status.
+- **Current:** Analysis uses the most recent 12 complete months of data.
+- **Cited:** Publicly available dataset with licensing provided by the source.
+
+---
+
 ### Tools Used
 - SQL (Google BigQuery)
 - Tableau
