@@ -6,6 +6,15 @@ Analyze Cyclistic’s historical trip data to determine how annual members and c
 
 ---
 
+### Stakeholders
+- Director of Marketing
+- Marketing Analytics Team
+- Executive Leadership Team
+
+Insights from this analysis will support marketing strategy decisions aimed at increasing annual memberships.
+
+---
+
 ### Tools Used
 - SQL (Google BigQuery)
 - Tableau
