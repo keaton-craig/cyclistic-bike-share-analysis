@@ -1,0 +1,7 @@
+-- =========================================================
+-- File: 03_create_cleaned_table.sql
+-- Project: Cyclistic Bike Share Case Study
+-- Purpose: Create cleaned, analysis-ready table from raw union view
+-- Author: Keaton Craig
+-- Date: Feb 26, 2025
+-- =========================================================
