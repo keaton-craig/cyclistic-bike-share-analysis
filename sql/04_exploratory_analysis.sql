@@ -1,0 +1,7 @@
+-- =========================================================
+-- File: 04_exploratory_analysis.sql
+-- Project: Cyclistic Bike Share Case Study
+-- Purpose: Exploratory analysis of tripdata_2025_clean table
+-- Author: Keaton Craig
+-- Date: Feb 26, 2025
+-- =========================================================
