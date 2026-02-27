@@ -70,3 +70,28 @@ JOIN
   ) AS totals
 ON 
   counts.member_casual = totals.member_casual;
+
+
+-- Query to check for monthly seasonality of riders
+SELECT
+  EXTRACT(MONTH FROM started_at) AS ride_month,
+  member_casual,
+  COUNT(*) AS num_rides,
+  AVG(ride_length_minutes) AS avg_ride_length
+FROM `cyclistic-case-study-488517.cyclistic_clean.tripdata_2025_clean`
+GROUP BY
+  ride_month,
+  member_casual
+ORDER BY
+  ride_month;
+
+
+-- =========================================================
+-- FINDINGS SUMMARY
+--
+-- 1. Casual riders take longer rides than members.
+-- 2. Casual riders ride predominantly on weekends.
+-- 3. Members ride more during weekdays (likely commuting).
+-- 4. Casual ridership spikes in summer months.
+-- 5. Bike type preference is similar across rider types.
+-- =========================================================
