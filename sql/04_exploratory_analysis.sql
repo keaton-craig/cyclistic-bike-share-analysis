@@ -38,3 +38,35 @@ ORDER BY
   member_casual;
 
 -- Casual riders seem to be heavily weekend-driven, while members are weekday-heavy
+
+
+-- Query to determine if casual riders and members prefer a certain type of bike
+SELECT
+  counts.member_casual,
+  counts.rideable_type,
+  counts.num_rides,
+  ROUND((counts.num_rides / totals.total_rides * 100),2)  AS pct_of_rideable_type -- finds percent bike type is used for each member type
+FROM
+  (
+    --determines number of riders for each bike per member type
+    SELECT
+      member_casual,
+      rideable_type,
+      COUNT(*) AS num_rides
+    FROM `cyclistic-case-study-488517.cyclistic_clean.tripdata_2025_clean`
+    GROUP BY
+      member_casual,
+      rideable_type
+  ) AS counts
+JOIN
+  (
+    -- determines total number of riders
+    SELECT
+      member_casual,
+      COUNT(*) AS total_rides
+    FROM `cyclistic-case-study-488517.cyclistic_clean.tripdata_2025_clean`
+    GROUP BY 
+      member_casual
+  ) AS totals
+ON 
+  counts.member_casual = totals.member_casual;
