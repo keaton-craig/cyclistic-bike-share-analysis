@@ -62,5 +62,36 @@ This project follows the six-step data analysis process:
 
 ---
 
+## Key Findings
+
+### 1. Ride Duration Differences
+Casual riders take significantly longer trips than annual members.
+- Casual avg ride length: ~19 minutes
+- Member avg ride length: ~12 minutes
+
+This suggests casual riders primarily use bikes for leisure, while members use them for transportation.
+
+### 2. Weekday vs Weekend Behavior
+- Casual riders peak on weekends.
+- Members ride more frequently on weekdays.
+
+This indicates commuter behavior among members and recreational behavior among casual riders.
+
+### 3. Seasonality
+Casual ridership spikes dramatically in late spring and summer.
+Members ride more consistently throughout the year.
+
+This suggests the strongest opportunity for membership conversion occurs during peak summer months.
+
+---
+
+## Recommendations
+
+1. Launch targeted summer membership promotions for active casual riders.
+2. Introduce a lower-cost weekend membership option.
+3. Use behavioral triggers in the app to show casual riders potential cost savings from upgrading.
+
+---
+
 ### Project Status
 In Progress
