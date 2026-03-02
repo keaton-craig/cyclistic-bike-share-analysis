@@ -85,6 +85,23 @@ This suggests the strongest opportunity for membership conversion occurs during 
 
 ---
 
+## Tableau Dashboard
+
+View the interactive dashboard here:
+[View Interactive Tableau Dashboard](https://public.tableau.com/app/profile/keaton.craig/viz/CyclisticCaseStudyMembervsCasualBehavior/Dashboard1)
+
+### Dashboard Overview
+The dashboard highlights key behavioral differences between annual members and casual riders:
+
+- Casual riders take longer trips on average.
+- Casual riders primarily ride on weekends.
+- Member riders primarily ride on weekdays.
+- Casual ridership peaks during summer months.
+
+These findings suggest seasonal and behavioral opportunities for targeted membership conversion strategies.
+
+---
+
 ## Recommendations
 
 1. Launch targeted summer membership promotions for active casual riders.
